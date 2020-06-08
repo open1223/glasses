@@ -1,0 +1,120 @@
+.bannerFaq{
+    background: url(../img/qa.png) no-repeat center top;
+}
+.bannerFaq-tittle{
+    height: 304px;
+    align-items: flex-end;
+    padding-bottom: 16px;
+    h4{
+        font-size: 64px;
+        margin-right: 10px;
+    }
+    img{
+        width: 57.9px;
+    }
+}
+// ------banner結束------
+
+.faqLists{
+    padding: 88px 0 156px 0;
+    h5{
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 16px;
+    }
+    li{
+        padding: 22px 0 22px 38px;
+        border: 1px solid #000000;
+        border-top: 0px;
+    }
+    li:first-child{
+        border: 1px solid #000000;
+    }
+    .question{
+        p{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    .answer{
+        background-color: #F2F2F2;
+    }
+}
+@media (max-width: 992px){
+    .bannerFaq{
+    background: url(../img/qa-pad.png) no-repeat
+    }
+    .bannerFaq-tittle{
+        padding-bottom: 9px;
+        h4{
+            font-size: 48px;
+            margin-right: 16px;
+        }
+        img{
+            width: 48px;
+        }
+    }
+    .faqLists{
+        padding: 40px 0 104px 0;
+        h5{
+            font-size: 28px;
+            line-height: 40px;
+            margin-bottom: 32px;
+        }
+        li{
+            padding: 16px 0 16px 24px;
+        }
+        .question{
+            p{
+                font-size: 16px;
+            }
+        }
+        .answer{
+            p{
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    .bannerFaq{
+        background: url(../img/qa-sp.png) no-repeat;
+        background-size: cover;
+        }
+    .bannerFaq-tittle{
+        height: 143px;
+        padding-bottom: 8px;
+        h4{
+            font-size: 28px;
+            margin-right: 8px;
+        }
+        img{
+            width: 24px;
+            background: #FFFFFF;
+            border-radius: 50%;
+        }
+    }
+    .faqLists{
+        padding: 24px 0 56px 0;
+        h5{
+            font-size: 28px;
+            line-height: 40px;
+            margin-bottom: 32px;
+        }
+        li{
+            padding: 16px 0 16px 16px;
+        }
+        .answer{
+            p{
+                padding-right: 16px;
+            }
+            p:first-child {
+                margin-bottom: 21px;
+            }
+            br{
+                content: "";display: none;
+            }
+        }
+    }
+}
